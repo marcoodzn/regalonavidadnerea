@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Cambiado el color del fondo */
+    
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.email-form {
+background: #ffffff;
+width: 500px;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+border: 1px solid #d1d1d1;
+width: 80%;
+}
+
+.email-form header {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 15px;
+}
+
+.email-form header button {
+background-color: #0078d4;
+color: white;
+border: none;
+padding: 8px 12px;
+border-radius: 4px;
+font-size: 14px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.email-form header button:hover {
+background-color: #005ea2;
+}
+
+.email-form .field {
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+.email-form label {
+display: block;
+font-size: 14px;
+color: #666;
+margin-bottom: 5px;
+}
+
+.email-form input[type="text"],
+.email-form input[type="email"] {
+width: 100%;
+padding: 10px;
+font-size: 14px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+outline: none;
+}
+
+.email-form input[type="text"]:focus,
+.email-form input[type="email"]:focus {
+border-color: #0078d4;
+}
+
+.email-form .cc-bcc {
+display: flex;
+justify-content: space-between;
+margin-top: 5px;
+}
+
+.email-form .cc-bcc a {
+font-size: 12px;
+color: #0078d4;
+text-decoration: none;
+cursor: pointer;
+}
+
+.email-form .cc-bcc a:hover {
+text-decoration: underline;
+}
+
+.email-form textarea {
+width: 100%;
+padding: 10px;
+font-size: 14px;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: none;
+box-sizing: border-box;
+outline: none;
+height: 100px;
+}
+
+.email-form textarea:focus {
+border-color: #0078d4;
+}
+
+
+
+.escribir {
+    width: 90%;
+    height: 90vh;
+    margin: 5vh auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para facilitar la escritura */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+}
+.anillas {
+    position: absolute;
+    left: 20px;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.anilla {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #aaa;
+    border-radius: 50%;
+    background-color: grey;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.textocarta {
+    margin-left: 30px;
+}

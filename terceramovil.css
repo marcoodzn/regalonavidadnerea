@@ -1,0 +1,126 @@
+@media (max-width: 768px) {
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #1c2833, #34495e); /* Fondo degradado */
+      color: #ecf0f1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    /* Header styles */
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 1.2rem; /* Tamaño reducido */
+      font-weight: bold;
+      color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      padding: 10px;
+    }
+  
+    /* Card container styles */
+    .card-container {
+      display: flex;
+      flex-wrap: wrap; /* Permite que las tarjetas se ajusten en varias filas */
+      gap: 15px;
+      justify-content: center;
+    }
+  
+    /* Individual card styles */
+    .card {
+      background-color: white;
+      width: 160px; /* Tamaño reducido */
+      height: 240px; /* Tamaño reducido */
+      border: 2px solid transparent;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+  
+    .card:hover {
+      transform: scale(1.05);
+      border-color: transparent;
+      box-shadow: 0 0 8px 2px rgba(0, 123, 255, 0.7); /* Brillo azul más suave */
+    }
+  
+    .card img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+  
+    /* Frames for photos and text */
+    .frame-container {
+      display: flex;
+      flex-wrap: wrap; /* Permite ajustar las tarjetas de texto */
+      gap: 15px;
+      justify-content: center;
+      margin-top: 20px; /* Espaciado reducido */
+    }
+  
+    .frame {
+      width: 160px; /* Tamaño ajustado */
+      height: 220px; /* Tamaño ajustado */
+      border: 8px solid #dcdcdc;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      position: relative;
+      background-color: #f0f0f0;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+  
+    .frame:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 8px 2px rgba(0, 123, 255, 0.7);
+      border-color: rgba(0, 123, 255, 0.7);
+    }
+  
+    .frame textarea {
+      width: calc(100% - 20px);
+      height: calc(100% - 20px);
+      border: none;
+      resize: none;
+      background: transparent;
+      padding: 10px;
+      font-size: 13px; /* Tamaño de fuente ajustado */
+      font-family: 'Poppins', sans-serif;
+      pointer-events: none;
+      box-sizing: border-box;
+      overflow: hidden; /* Evita barras de desplazamiento */
+    }
+  
+    /* Button styles */
+    .button-container {
+      margin-top: 20px; /* Espaciado reducido */
+      display: flex;
+      justify-content: center;
+    }
+  
+    .next-button {
+      background: linear-gradient(to right, #1c2833, #34495e);
+      color: #fff;
+      padding: 8px 16px; /* Tamaño reducido */
+      border: none;
+      border-radius: 5px;
+      font-size: 14px; /* Tamaño de fuente más pequeño */
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+  
+    .next-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+  
+    .next-button:focus {
+      outline: none;
+    }
+  }
+  
